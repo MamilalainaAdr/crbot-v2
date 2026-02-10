@@ -1,6 +1,4 @@
-# build_project_overview.py
 from pathlib import Path
-from typing import Iterable
 from code_scanner import list_code_files
 from llm_client import generate
 

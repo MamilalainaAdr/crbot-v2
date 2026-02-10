@@ -1,4 +1,3 @@
-# build_index.py
 import pathlib
 import chromadb
 from langchain_text_splitters import RecursiveCharacterTextSplitter

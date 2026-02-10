@@ -1,4 +1,3 @@
-# search_index.py
 import chromadb
 
 CHROMA_PATH = "chroma_index"

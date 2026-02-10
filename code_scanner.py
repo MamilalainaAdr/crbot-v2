@@ -1,4 +1,3 @@
-# code_scanner.py
 from pathlib import Path
 from typing import Iterable, Literal
 
@@ -10,7 +9,7 @@ CODE_EXTENSIONS = {
     "typescript": [".ts"],
     "java": [".java"],
     "markdown": [".md"],
-    "shell": [".sh"],
+    "bash": [".sh"],
     "javascript xml": [".jsx"],
     "typescript xml": [".tsx"],
     "javascript xml": [".jsx"],
