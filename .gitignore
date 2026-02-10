@@ -1,0 +1,6 @@
+.venv
+data_repos
+__pycache__
+example_code
+dataset
+chroma_*
