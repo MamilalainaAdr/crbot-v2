@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Iterable, Literal
 
-Language = Literal["python", "javascript", "typescript", "java", "markdown", "shell", "javascript xml", "typescript xml", "yaml", "yml", "configurations", "variables", "any"]
+Language = Literal["python", "javascript", "typescript", "java", "markdown", "bash", "javascript xml", "typescript xml", "yaml", "yml", "configurations", "variables", "any"]
 
 CODE_EXTENSIONS = {
     "python": [".py"],

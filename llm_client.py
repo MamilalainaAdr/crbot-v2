@@ -22,7 +22,7 @@ def generate(prompt: str, temperature: float = 0.1, max_tokens: int | None = Non
         payload["options"]["num_predict"] = max_tokens
 
     headers = {"Content-Type": "application/json"}
-    resp = requests.post(OLLAMA_URL, data=json.dumps(payload), headers=headers, timeout=1800)
+    resp = requests.post(OLLAMA_URL, data=json.dumps(payload), headers=headers, timeout=3600)
     resp.raise_for_status()
     data = resp.json()
     return data.get("response", "")

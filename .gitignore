@@ -4,3 +4,5 @@ __pycache__
 example_code
 dataset
 chroma_*
+file_summaries/
+project_overview.md
